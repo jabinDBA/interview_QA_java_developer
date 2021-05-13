@@ -1,12 +1,13 @@
 # Interview Questions for Java developer
 
-
+<br/>
 
 1. ## final?
 
 - A **modifier** that makes classes / attributes / methods **unchangeable** and **read-only**.
 
-
+<br/>
+<br/>
 
 2. ## Primitive Data Type vs Non-Primitive Data Type
 
@@ -15,7 +16,8 @@
 - Non-primitive : **reference types**. They refer to objects. Defined by the programmers.
   - Example : *Class, Array, String*
 
-
+<br/>
+<br/>
 
 3. ## double vs float?
 
@@ -23,7 +25,8 @@
 - float : only 6 digits after the decimal point.
 - **double is much safer** than float for most calculations
 
-
+<br/>
+<br/>
 
 4. ## Widening Casting & Narrow Casting
 
@@ -31,13 +34,15 @@
 - Widening Casting : Larger type to Smaller type. Automatically its done.
 - Narrow Casting : Smaller type to Larger type. **Parentheses in front to the value**.
 
-
+<br/>
+<br/>
 
 5. ## Short Hand If...Else (Ternary Operator)
 
    Syntax : *variable **=** (condition) **?** expressionTrue **:**  expressionFalse;*
 
-
+<br/>
+<br/>
 
 6. ## Methods?
 
@@ -46,13 +51,15 @@
 - To reuse code
 - Only created within a class
 
-
+<br/>
+<br/>
 
 7. ## Method Overloading
 
 - Multiple methods can have the **same name** with **different parameters / return** types.
 
-
+<br/>
+<br/>
 
 8. ## OOP?
 
@@ -62,7 +69,8 @@
 	1. **Reuse the code** so that we can have less code and shorter development time - code efficiency up!
 	2. **Clear structure**.
 
-
+<br/>
+<br/>
 
 9. ## Class vs Object?
 
@@ -70,7 +78,8 @@
 - Class : **a template of objects**.
 - Object : **an instance of a class**.
 
-
+<br/>
+<br/>
 
 10. ## Static vs Public(Non-static)
 
@@ -78,19 +87,22 @@
 - Public method : it can be only accessed BY objects.
 - *Details : [https://www.w3schools.com/java/java_class_methods.asp](https://www.w3schools.com/java/java_class_methods.asp)*
 
-
+<br/>
+<br/>
 
 11. ## Constructor?
 
 - Used to **initialize** **objects** and set initial values for object attributes.
 
-
+<br/>
+<br/>
 
 12. ## this?
 
 - The keyword used to **refer to the current object**.
 
-
+<br/>
+<br/>
 
 13. ## Encapsulation? *(Security)*
 
@@ -100,7 +112,8 @@
 1. Declare attributes as **private**
 2. Provide "**get**" and "**set**" methods to **access the private attributes** we just declared in (1).
 
-
+<br/>
+<br/>
 
 14. ## Inheritance? *(Re-usability)* 
 
@@ -109,7 +122,8 @@
 - Keyword, "**extends**", is used to inherit from a class
 - Able to **re-use attributes and methods** of an existing class when you create a new class.
 
-
+<br/>
+<br/>
 
 15. ## Polymorphism? *(Re-usability)*
 
@@ -118,7 +132,8 @@
 - When we want to use the inherited methods to **perform different tasks**, then we can apply Polymorphism.
 - This allows us to take **a single action in different ways**.
 
-
+<br/>
+<br/>
 
 16. ## Abstraction? *(Security)*
 
@@ -127,7 +142,8 @@
 - If we want to access the abstract class, it **must be inherited** from another class.
 - **Abstract method** : does **NOT** have a body.
 
-
+<br/>
+<br/>
 
 17. ## HashMap?
 
