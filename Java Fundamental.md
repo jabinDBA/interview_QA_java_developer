@@ -150,3 +150,60 @@
 - Store items in **Key/Value pairs**.
 - Key : index
 
+<br/>
+<br/>
+
+18. ## MVC?
+
+- Consisting of three components - **Model**, **View**,  and **Controller**
+- Model : **Store** data and queries.
+- View : Visual component that is responsible for **UI**.
+- Controller : **Connector** between Model and View.
+  - Receive input --> Interpret it --> There is anything to change, update it to View and Model
+
+<br/>
+<br/>
+
+19. ## Scanner?
+
+- A class used to get **user input**.
+
+  1. Create a Scanner object - *Scanner myInput = new Scanner(System.in);*
+
+  2. Read user input - *String userName = myInput.nextLine();*
+
+<br/>
+<br/>
+
+20. ## ArrayList vs Built-in array?
+
+- ArrayList : A **resizable** array.
+- Built-in array : The size of an array can **NOT** be modified.
+- Methods : add(), remove(), clear(), get(), set(), size()
+
+<br/>
+<br/>
+
+21. ## ArrayList vs LinkedList?
+
+- ArrayList : When a new element is added, it is placed to **the end of the array**. If the array size is not bit enough, **the new element replaces the old one at the end.**
+- LinkedList : It is best use a LinkedList when you need to add / remove items from **the beginning, middle or end of the list**. It does **not remove the old element** but it creates a new container and put the new element and link containers.
+- *Details : [https://www.w3schools.com/java/java_linkedlist.asp](https://www.w3schools.com/java/java_linkedlist.asp)*
+
+<br/>
+<br/>
+
+22. ## Methods in ArrayList, LinkedList, and HashMap
+
+- ArrayList : add(), remove(), clear(), get(), set(), size() ...
+- LinkedList : addFirst(), addLast(), removeFirst(), removeLast(), getFirst(), getLast() ...
+- HashMap : put(), get(), remove(), clear(), size(), keySet(), values()
+
+<br/>
+<br/>
+
+23. ## HashSet?
+
+- A collection of items where every item is **unique**.
+- Methods : add(), **contains()**, remove(), clear(), size()
+
