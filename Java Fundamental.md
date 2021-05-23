@@ -57,6 +57,13 @@
 7. ## Method Overloading
 
 - Multiple methods can have the **same name** with **different parameters / return** types.
+### Example
+
+```java
+int myMethod(int x)
+float myMethod(float x)
+double myMethod(double x, double y)
+```
 
 <br/>
 <br/>
