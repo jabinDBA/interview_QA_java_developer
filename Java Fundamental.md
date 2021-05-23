@@ -130,6 +130,10 @@ double myMethod(double x, double y)
 1. Declare attributes as **private**
 2. Provide "**get**" and "**set**" methods to **access the private attributes** we just declared in (1).
 
+#### Why Encapsulation?
+- Better control of class attributes and methods
+- Class attributes can be made **read-only** (if you only use the `get` method), or **write-only** (if you only use the `set` method)
+
 <br/>
 <br/>
 
