@@ -100,6 +100,7 @@ double myMethod(double x, double y)
 11. ## Constructor?
 
 - Used to **initialize** **objects** and set initial values for object attributes.
+- The constructor name must **match the class name**, and it cannot have a **return type**.
 
 <br/>
 <br/>
