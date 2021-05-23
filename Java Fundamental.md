@@ -112,7 +112,17 @@ double myMethod(double x, double y)
 <br/>
 <br/>
 
-13. ## Encapsulation? *(Security)*
+13. ## Access Modifier?
+
+- The **access level** for classes, attributes, methods and constructors.
+- public : Accessible for all classes.
+- private : Only accessible within the **declared class**.
+- protected : Accessible in the **same package** and **subclasses**.
+
+<br/>
+<br/>
+
+14. ## Encapsulation? *(Security)*
 
 - Used to make sure that the "sensitive" data is hidden from users.
 - Increases security data.
@@ -123,7 +133,7 @@ double myMethod(double x, double y)
 <br/>
 <br/>
 
-14. ## Inheritance? *(Re-usability)* 
+15. ## Inheritance? *(Re-usability)* 
 
 - subclass (*child class*)
 - superclass (*parent class*)
@@ -133,7 +143,7 @@ double myMethod(double x, double y)
 <br/>
 <br/>
 
-15. ## Polymorphism? *(Re-usability)*
+16. ## Polymorphism? *(Re-usability)*
 
 - Same idea as Inheritance.
 - Can **re-use attributes and methods**.
@@ -143,7 +153,7 @@ double myMethod(double x, double y)
 <br/>
 <br/>
 
-16. ## Abstraction? *(Security)*
+17. ## Abstraction? *(Security)*
 
 - Hide certain details and only show the important details of an object.
 - A restricted class that does not allow to create objects.
@@ -153,7 +163,7 @@ double myMethod(double x, double y)
 <br/>
 <br/>
 
-17. ## HashMap?
+18. ## HashMap?
 
 - Store items in **Key/Value pairs**.
 - Key : index
@@ -161,7 +171,7 @@ double myMethod(double x, double y)
 <br/>
 <br/>
 
-18. ## MVC?
+19. ## MVC?
 
 - Consisting of three components - **Model**, **View**,  and **Controller**
 - Model : **Store** data and queries.
@@ -172,7 +182,7 @@ double myMethod(double x, double y)
 <br/>
 <br/>
 
-19. ## Scanner?
+20. ## Scanner?
 
 - A class used to get **user input**.
 
@@ -183,7 +193,7 @@ double myMethod(double x, double y)
 <br/>
 <br/>
 
-20. ## ArrayList vs Built-in array?
+21. ## ArrayList vs Built-in array?
 
 - ArrayList : A **resizable** array.
 - Built-in array : The size of an array can **NOT** be modified.
@@ -192,7 +202,7 @@ double myMethod(double x, double y)
 <br/>
 <br/>
 
-21. ## ArrayList vs LinkedList?
+22. ## ArrayList vs LinkedList?
 
 - ArrayList : When a new element is added, it is placed to **the end of the array**. If the array size is not bit enough, **the new element replaces the old one at the end.**
 - LinkedList : It is best use a LinkedList when you need to add / remove items from **the beginning, middle or end of the list**. It does **not remove the old element** but it creates a new container and put the new element and link containers.
@@ -201,7 +211,7 @@ double myMethod(double x, double y)
 <br/>
 <br/>
 
-22. ## Methods in ArrayList, LinkedList, and HashMap
+23. ## Methods in ArrayList, LinkedList, and HashMap
 
 - ArrayList : add(), remove(), clear(), get(), set(), size() ...
 - LinkedList : addFirst(), addLast(), removeFirst(), removeLast(), getFirst(), getLast() ...
@@ -210,7 +220,7 @@ double myMethod(double x, double y)
 <br/>
 <br/>
 
-23. ## HashSet?
+24. ## HashSet?
 
 - A collection of items where every item is **unique**.
 - Methods : add(), **contains()**, remove(), clear(), size()
